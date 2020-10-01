@@ -95,3 +95,10 @@ main {
     margin-bottom: 15px;
     text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
 }
+
+.current-temp .temp-diff {
+    color: #fff;
+    font-style: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
