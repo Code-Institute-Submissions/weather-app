@@ -9,12 +9,11 @@ citySearch.addEventListener('keypress', findCity);
 function findCity(e) {
     if (e.keyCode == 13) {
         searchResults(citySearch.value);
-        console.log(citySearch.value);
     }
 }
 
 function searchResults (query) {
-    fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+    fetch(`${api.baseurl}weather?q=${query}&units=metric&APPID=${api.key}`)
         .then(weather => {
             return weather.json();
         }).then(displayResults);
@@ -22,4 +21,6 @@ function searchResults (query) {
 
 function displayResults (weather) {
     console.log(weather);
+    let currentCity = document.querySelector('.current-location .city');
+    currentCity.innerText = `${weather.name}`;
 }
