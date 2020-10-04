@@ -31,4 +31,7 @@ function displayResults (weather) {
     let date = currentDate.getDate()+' '+monthNames[currentDate.getMonth()]+' '+currentDate.getFullYear();
 
     document.querySelector('.current-location .date').innerText = date;
+
+    let temperature = document.querySelector('.current-temp .temperature');
+    temperature.innerHTML = `${Math.round(weather.main.temp)}<span>°C</span>`;
 }
