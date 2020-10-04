@@ -23,4 +23,12 @@ function displayResults (weather) {
     console.log(weather);
     let currentCity = document.querySelector('.current-location .city');
     currentCity.innerText = `${weather.name}`;
+
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"];
+
+    let currentDate = new Date();
+    let date = currentDate.getDate()+' '+monthNames[currentDate.getMonth()]+' '+currentDate.getFullYear();
+
+    document.querySelector('.current-location .date').innerText = date;
 }
