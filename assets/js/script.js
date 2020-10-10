@@ -38,6 +38,11 @@ function displayResults (weather) {
     let weatherDescription = document.querySelector('.current-temp .weather-cond');
     weatherDescription.innerText = weather.weather[0].main;
 
+    let showWeatherIcon = document.querySelector('.current-temp .weather-icon');
+    showWeatherIcon.innerHTML = `<img src="assets/img/icons/${weather.weather[0].icon}.png"/>`;
+
+
     let hiLowTemp = document.querySelector('.current-temp .temp-diff');
-    hiLowTemp.innerText = `${Math.round(weather.main.temp_min)}°C / ${Math.round(weather.main.temp_max)}°C`;
+    hiLowTemp.innerHTML = `${Math.round(weather.main.temp_min)}°C / ${Math.round(weather.main.temp_max)}°C`;
 }
+
