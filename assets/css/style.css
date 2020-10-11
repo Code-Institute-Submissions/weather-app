@@ -50,13 +50,11 @@ header input:focus {
 }
 
 main {
-    flex: 1 1 100%;
-    /*padding: 25px 25px 50px;*/
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-
 }
 
 .current-location .city {
@@ -64,7 +62,7 @@ main {
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 5px;
-    text-shadow: 3px 6px #ffffff;
+    text-shadow: 2px 4px #ffffff;
 }
 
 .current-location .date {
