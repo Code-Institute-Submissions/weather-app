@@ -16,7 +16,7 @@
     font-size: 62.5%;
     background-image: url(../img/AM.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
@@ -71,12 +71,12 @@ main {
 }
 
 .current-location .date {
-    color: #fff;
+    color: #ffffff;
     font-size: 16px;
 }
 
 .current-temp .temperature {
-    color: #fff;
+    color: #ffffff;
     font-size: 102px;
     font-weight: 900;
     margin: 30px 0px;
