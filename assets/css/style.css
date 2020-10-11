@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@400,500,600,700&display=swap');
 
 /* Styling applied to all layout */ 
-/*
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}*/
+}
 
 #background {
     font-family: 'Mali', sans-serif;
@@ -15,13 +15,12 @@
     background-position: center;
     background-repeat: no-repeat;
     margin: 5px;
+    min-height: 100vh;
 }
 
 .main-laytout {
     display: flex;
-    /*flex-direction: column;*/
     min-height: 100vh;
-    /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0,0, 0.6));*/
 }
 
 header {
@@ -38,7 +37,7 @@ header input {
     border: none;
     outline: none;
     background-color: rgba(245, 245, 245, 0.2);  
-    border-radius: 16px 0px 16px 0px;
+    border-radius: 40px 20px;
     border-bottom: 3px solid #565656;
     color: #000000;
     font-size: 1.25rem;
@@ -52,7 +51,7 @@ header input:focus {
 
 main {
     flex: 1 1 100%;
-    padding: 25px 25px 50px;
+    /*padding: 25px 25px 50px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,16 +60,18 @@ main {
 }
 
 .current-location .city {
-    color: #D3D3D3;
-    font-size: 40px;
+    color: #717070;
+    font-size: 45px;
     font-weight: 600;
     margin-bottom: 5px;
-    text-shadow: 3px 6px rgba(255, 255, 255, 0.5);
+    text-shadow: 3px 6px #ffffff;
 }
 
 .current-location .date {
     color: #ffffff;
-    font-size: 16px;
+    font-weight: 300;
+    text-shadow: 3px 3px rgba(255, 255, 255, 0.5);
+    font-size: 20px;
 }
 
 .current-temp {
