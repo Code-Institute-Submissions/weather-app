@@ -35,10 +35,13 @@ function displayResults (weather) {
     let currentDate = new Date();
    // let timeline = currentDate.getHours();
 
-   // if (timeline >= 12 &&  timeline <= 0)
-   //     $("#background").css("background", "url(../img/PM.jpg)");
-  //  else 
-   //     $("#background").css("background", "url(../img/AM.jpg)");
+    // if (weather.coord.dt > weather.sys.sunrise && weather.coord.dt < weather.sys.sunset) {
+    if (`${weather.coord.dt}` > `${weather.sys.sunrise}`) {
+       $("#background").css("background", "url(assets/img/PM.jpg)");
+    }
+    else {
+       $("#background").css("background", "url(assets/img/AM.jpg)");
+    }
 
     let date = currentDate.getDate()+' '+monthNames[currentDate.getMonth()]+' '+currentDate.getFullYear();
 
@@ -54,7 +57,7 @@ function displayResults (weather) {
 
     // display weather icon which describbes weather condition
     let showWeatherIcon = document.querySelector('.current-temp .weather-icon');
-    showWeatherIcon.innerHTML = `<img src="assets/img/icons/${weather.weather[0].icon}.png"/>`;
+    showWeatherIcon.innerHTML = `<img src="assets/img/icons/${weather.weather[0].icon}.png">`;
 
     // show high and low temperature measures
     let hiLowTemp = document.querySelector('.current-temp .temp-diff');

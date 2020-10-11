@@ -1,10 +1,7 @@
 /*  Fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter:300, 400, 500,600,700,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300,400,500,700&display=swap');
 
 /* Styling applied to all layout */ 
-
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +9,7 @@
 }
 
 #background {
-    font-family: 'Architects Daughter', sans-serif;
+    font-family: 'Mali', sans-serif;
     font-size: 62.5%;
     background-image: url(../img/AM.jpg);
     background-size: cover;
@@ -78,7 +75,7 @@ main {
 .current-temp .temperature {
     color: #ffffff;
     font-size: 102px;
-    font-weight: 900;
+    font-weight: 700;
     margin: 30px 0px;
     text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
 }
