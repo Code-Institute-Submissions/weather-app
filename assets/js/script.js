@@ -33,6 +33,13 @@ function displayResults (weather) {
     "July", "August", "September", "October", "November", "December"];
 
     let currentDate = new Date();
+   // let timeline = currentDate.getHours();
+
+   // if (timeline >= 12 &&  timeline <= 0)
+   //     $("#background").css("background", "url(../img/PM.jpg)");
+  //  else 
+   //     $("#background").css("background", "url(../img/AM.jpg)");
+
     let date = currentDate.getDate()+' '+monthNames[currentDate.getMonth()]+' '+currentDate.getFullYear();
 
     document.querySelector('.current-location .date').innerText = date;
