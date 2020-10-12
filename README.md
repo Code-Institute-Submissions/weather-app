@@ -114,9 +114,8 @@ on Balsamiq to show how structurally elements would appear on the page for diffe
 
 # Features:
 
-* Slide in navigation for mobile/tablet devices <strong>(My mentor Simen Daehlin provided me this JavaScript code)</strong>
-* Interactive youtube videos
-* Popping buttons and menu items (hover.css)
+* Updated information from outside API 
+* Integrated responsive weather icons
 
 # Technologies Used:
 
