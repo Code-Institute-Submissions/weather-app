@@ -29,8 +29,9 @@ attractive for user.
 ### User Goals:
 * The website is easy to use and is User Friendly
 * Information on website is readable and easy to understand
-* Added pictures are clear and 
-* Capability to send message via contact form
+* Added pictures are clear and works well ij choisen app theme
+* Search box answers well to user's requests
+* Weather description icon response as predicted
 * Interact with the website on Desktop, Tablet and Mobile 
 
 ### User Stories:
