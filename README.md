@@ -182,17 +182,12 @@ Cloning Weather App page from GitHub:
 
 # Closing Notes:
 
-Developing this project first time I have used <strong>Bootstrap</strong> which I find was so helpful and capable helper.
-Then I got a hang on grid system I thought to myself that it is such a briliant thing and so handy for any website developer. 
-It helped so much with layout of page and was mobile device friendly. For the further development of this project 
-I would probably try to add more styling features such as zoom-in while image is clicked, sliding in heading of the page and
-maybe carousel for images to have an album not only couple images. I managed to make it work on all sizes of devices which I 
-think was a challange for me and user was happy to see all the content on any device it has been tried on. 
+Developing this project first time I have used <strong>API</strong> which I find was challanging and not that straight forward either. My personal opinion is that javascript is not that easy to understand and I definitely know that I will have to work on it more to be completely comfortable using it. 
+I also used my old friend from my previous project <strong>Bootstrap</strong> which I think is amazing and so helpful whilst developing mobile apps because of it's grid system. It helped so much with layout of page and was mobile device friendly. For the further development of this project I would probably try to to use animation in a background and svg or gif weather icons which would make it even more live but I like it as it is now too. I also managed to make it work on all sizes of devices which was one of the main reasons because I will probably use it myself on my mobile phone from now.
 
-This project is created only for educational purpose to show admiration for this band.
+This project is created only for educational purpose to try and get data displayed from API.
 
 # Credits:
 
 * <a href="https://htmlcolorcodes.com/color-names/">Colour names and codes</a>
-* <a href="http://linkinparkweb.yaia.com/biography.html">Linkin Park biography</a>
 * <a href="https://www.cssmatic.com/box-shadow">Shadow box parameters</a>
