@@ -78,8 +78,11 @@ a weather in choisen city.
 My choice of a font was <a href="https://fonts.google.com/?query=Sansita+Swashed&selection.family=Lato">Sansita Swashed</a> because it looks a little bit different than the others and it has a soft and edgy style to it which can attract users who are bored of our days standards.
 
 ### Icons:
-The icons used as social links in footer section. They are all known social website's icons. I used 'font-awesome' 'Facebook', 'Instagram', 'Twitter'
-and 'Youtube' icons. I had to make sure they were reasonable size to be seen on a smaller devices too.
+Icons have been used from graphic designer Ashley Jager:
+
+<a href="https://github.com/manifestinteractive/weather-underground-icons>">Weather Icons</a> 
+
+The idea of these icons was to have something more live and catchy for the eye of user because picture and figures always attracts our eyes first. Design is really nice and fits into this app theme.
 
 ### Colours:
 * #fff (White)
