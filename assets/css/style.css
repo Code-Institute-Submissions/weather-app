@@ -67,9 +67,17 @@ main {
 
 .current-location .date {
     color: #717070;
-    font-weight: 300;
-    text-shadow: 3px 2px #ffffff;
+    font-weight: 400;
+    text-shadow: 1px 2px #ffffff;
     font-size: 20px;
+}
+
+/* Stroke feature for fonts */
+.current-location {
+    color: black;
+    -webkit-text-fill-color: #717070; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .current-temp {
@@ -107,7 +115,7 @@ main {
 
 .current-temp .temp-diff {
     color: #fff;
-    font-style: 24px;
+    font-size: 18px;
     font-weight: 500;
-    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
 }
