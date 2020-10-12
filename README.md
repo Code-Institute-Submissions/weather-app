@@ -100,17 +100,11 @@ Thanks to SCSS I was easily able to set variables in my stylesheets that ask as 
 having to repeat code. Using SCSS also allowed me to better structure my stylesheets.
 
 ### Images + Background:
-The background image I chose to on the banner I found via google search typing bands name and link to it can be found in Credts section. Because image
-was really big I had to use <a href="https://imagecompressor.com">Optimizilla</a> to resize it.
-More images can be found in About Us section of website and they are member's pictures for new and current band fans to recognise them in media.
+The main background image I have found via google search on this website:
+<a href="https://www.pv-magazine.com/2020/07/14/solar-causes-highest-power-peaks-under-mixed-cloud-conditions/>">Default Background Image</a>
+I liked colours and brightness of it and I thought it would be a good idea to have it as a default image. 
 
-I found images on random websites via google search. 
-
-* <a href="https://www.bhmpics.com/">Bhmpics</a>
-* <a href="https://www.pinterest.com/">Pinterest</a>
-* <a href="https://www.phoenix.org">Phoenix</a>
-* <a href="https://www.complex.com/">Complex</a>
-* <a href="https://www.WordPress.com/">WordPress</a>
+Ohter two images for AM and PM times of the day I have found via google search too. 
 
 # Wireframes:
 I have built wireframes for this project using <a href="https://balsamiq.com/">Balsamiq</a> mockups. I created basic wireframes for Mobile/Tablet/Desktop
