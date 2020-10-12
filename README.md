@@ -59,10 +59,9 @@ I was finding most of the websites too much into my face and you were getting lo
 # User Requirements and Expectations:
 
 ### Requirements:
-* Menu items working smoothly and respond correctly
-* Be provided with informative articles and media files
+* Search box responds correctly and gives suitable information on a screen 
+* Be provided with correct and updated information 
 * Website content displayed in a suitable and not offensive manor
-* Contact form validation to get in touch with band
 
 ### Expectations:
 * Choisen menu options leads to a correct section of the website
