@@ -134,10 +134,9 @@ on Balsamiq to show how structurally elements would appear on the page for diffe
 * <a href="https://htmlcolorcodes.com/">Colour picker</a>
 
 ### Testing planning + Testing stories:
-The most of the testing has been conducted in GitPod but I also have used chrome dev tools to inspect
-layout of my page on mobile device and tablet.
+The most of the testing has been conducted in GitPod but I also have used chrome dev tools for layout inspection of my app. App was tried and tested on other devices like Iphone, Ipad and PC to check if background is responding correctly depending on screen size.
 
-All testing has been done manually clicking and typing into provided contact us form. 
+All testing has been done manually clicking and typing into search-box. 
 
 #### Home page:
 
