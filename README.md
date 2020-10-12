@@ -85,12 +85,15 @@ Icons have been used from graphic designer Ashley Jager:
 The idea of these icons was to have something more live and catchy for the eye of user because picture and figures always attracts our eyes first. Design is really nice and fits into this app theme.
 
 ### Colours:
-* #fff (White)
-* #1E90FF (Dodgerblue)
-* #F5F5F5 (White smoke)
-* #F08080 (Lightcoral)
-* #DCDCDC (Gainsboro)
-* #000 (Black)
+* #ffffff - city name text-shadow colour
+* rgba(245, 245, 245, 0.2) - background colour for search box
+* #565656 - border-bottom colour for search box
+* rgba(255, 255, 255, 0.2) - background colour for search box then field is activated
+* #717070 - city name colour, date colour
+* #F5F5F5 - temperature colour 
+* rgba(0, 0, 0, 0.6) - text-shadow for temperature colour text
+* rgba(0, 0, 0, 0.4) - text-shadow for weather condition text 
+* #000000 - font stroke feature for city and date 
 
 ### Styling:
 Thanks to SCSS I was easily able to set variables in my stylesheets that ask as the house style - this means that the styles can be used in multiple places without 
