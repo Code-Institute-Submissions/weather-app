@@ -77,10 +77,10 @@ main {
 
 /* Stroke feature for fonts */
 .current-location {
-    color: black;
+    color: #000000;
     -webkit-text-fill-color: #717070; 
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #000000;
 }
 
 /*  Styling for current-temp section  */
@@ -122,7 +122,7 @@ main {
 
 /*  Styling for high and low temperatures  */
 .current-temp .temp-diff {
-    color: #fff;
+    color: #ffffff;
     font-size: 1.125rem;
     font-weight: 500;
     text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
