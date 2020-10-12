@@ -36,15 +36,11 @@ attractive for user.
 
 ### User Stories:
 
-##### John M.: 
-<em>"I am a big fan of this band and I am always researching what is happening in a band's life. I admire and adore
-this band so I am always keen on any website which has any information provided. I am personally prefer mobile devices and give priority 
-for mobile first websites."</em>
+##### Brandon: 
+<em>"I am young and as you can imagine active person but I always like to check what kind of weather I will get on a handy app in my pocket. I have my phone with me all the time and I really liked that this app has all information needed on single screen"</em>
 
-##### Diana R.: 
-<em>"As being a new fan of this band I was interested into informative and not too crowded website. I just was looking
-for a place in a web to read more about this band, see pictures of band members and videos to watch to get to know them more. It was 
-handy for me that I could fill the form to get in touch with website owners to find out more."</em>
+##### Tony R.: 
+<em>"I am not a biggest fan on new technologies and I prefer software which does not ask too much from me. I do not have a mobile phone and use my old PC only. Then I have tried this app on my home PC and I was pleased with all necessary information in one place. I think this app will be my number one from now to check weather."</em>
 
 ##### Mr James: 
 <em>"In todays web world you can find so much information but in website like this, everything was in one place.
