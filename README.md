@@ -52,9 +52,8 @@ I was finding most of the websites too much into my face and you were getting lo
 
 
 ### Site Owner Goals:
-* To provide suitable and not too crowded website for users interested in band
-* To attract new and current fans 
-* Receive contact details through use of contact form
+* To provide suitable and not too crowded website for users interested in weather
+* To attract new and current weather app users 
 * To make sure all information provided is correct 
 
 # User Requirements and Expectations:
