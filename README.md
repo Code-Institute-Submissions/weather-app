@@ -168,16 +168,16 @@ When deploying Weather App page using GitHub Pages the following steps were made
 
 #### Running Weather App fan page Locally
 
-Cloning Linkin Park fan page from GitHub:
+Cloning Weather App page from GitHub:
 
-* Navigate to <strong>'/vaida898/LinkinPark-fan-page'</strong>.
+* Navigate to <strong>'/vaida898/weather-app</strong>.
 * Click the green <strong>'Clone or Download'</strong> button.
 * Copy the <strong>url</strong> in the dropdown box.
 * Using your favourite <strong>IDE</strong> open up your preferred <strong>terminal</strong>.
 * Navigate to your desired file location. 
-* Copy the following <strong>code</strong> and input it into your terminal to clone Linkin Park fan page.
+* Copy the following <strong>code</strong> and input it into your terminal to clone Weather app page.
  ```git
-  git clone https://github.com/vaida898/LinkinPark-fan-page.git
+  git clone https://github.com/vaida898/weather-app.git
    ```
 
 # Closing Notes:
