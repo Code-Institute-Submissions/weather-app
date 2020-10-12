@@ -64,14 +64,10 @@ I was finding most of the websites too much into my face and you were getting lo
 * Website content displayed in a suitable and not offensive manor
 
 ### Expectations:
-* Choisen menu options leads to a correct section of the website
-* Can click on a buttons and get expected response
-* Watch videos on a website
+* Searched city name is being displayed on a screen with suitable information
+* Can click in a search box and be able to type city name in
 * Content is visually approachable 
-* Pop out nav appears in place of navbar on Tablet + Mobile devices
-* Quick Links takes to a wanted part of the website
-* Social Links responds as suspected
-* Contact Us form works correctly
+* Weather icon is being displayed to shadow weather description
 
 # Design Choices:
 The theme of this project is a Linkin Park fans website. Knowing that this is alternative rock band, colour scheme was picked to create 
