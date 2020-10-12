@@ -34,7 +34,7 @@ header input {
     border: none;
     outline: none;
     background-color: rgba(245, 245, 245, 0.2);  
-    border-radius: 40px 20px;
+    border-radius: 2.5rem 1.25rem;
     border-bottom: 3px solid #565656;
     color: #000000;
     font-size: 1.25rem;
@@ -59,7 +59,7 @@ main {
 /*  Styling for city class  */
 .current-location .city {
     color: #717070;
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: 600;
     margin-bottom: 5px;
     text-align: center;
@@ -72,7 +72,7 @@ main {
     color: #717070;
     font-weight: 400;
     text-shadow: 1px 2px #ffffff;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /* Stroke feature for fonts */
@@ -86,13 +86,13 @@ main {
 /*  Styling for current-temp section  */
 .current-temp {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 /*  Styling for temperature class  */
 .current-temp .temperature {
     color: #F5F5F5;
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: 700;
     font-display: center;
     text-shadow: 2px 8px rgba(0, 0, 0, 0.6);
@@ -107,9 +107,9 @@ main {
 .current-temp .weather-cond {
     color: #F5F5F5;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2rem;
     font-style: italic;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     margin-bottom: 15px;
     text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
 }
@@ -117,13 +117,13 @@ main {
 /*  Styling for weather icon  */
 .current-temp .weather-icon {
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 /*  Styling for high and low temperatures  */
 .current-temp .temp-diff {
     color: #fff;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
     text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
 }
