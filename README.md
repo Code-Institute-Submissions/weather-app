@@ -124,17 +124,14 @@ on Balsamiq to show how structurally elements would appear on the page for diffe
 * <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
 * <a href="https://www.w3schools.com/js/">JavaScript</a>
-* <a href="https://jquery.com/">jQuery</a>
-
 
 ## Tools and Libraries:
 
 * <a href="https://getbootstrap.com/">Bootstrap</a>
 * <a href="https://fontawesome.com/icons?d=gallery">Font-Awesome</a>
-* <a href="https://mdbootsrap.com">MDbootstrap</a>
+* <a href="https://css-tricks.com/">CSS-tricks</a>
 * <a href="https://jquery.com/">jQuery</a>
-* <a href="https://ianlunn.github.io/Hover/">Hover.css</a>
-* <a href="https://imagecompressor.com">Optimizilla</a>
+* <a href="https://htmlcolorcodes.com/">Colour picker</a>
 
 ### Testing planning + Testing stories:
 The most of the testing has been conducted in GitPod but I also have used chrome dev tools to inspect
