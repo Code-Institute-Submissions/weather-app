@@ -24,7 +24,6 @@ function searchResults (query) {
 
 // displaying data for end user on screen
 function displayResults (weather) {
-    console.log(weather);
     let currentCity = document.querySelector('.current-location .city');
     currentCity.innerText = `${weather.name}`;
 
