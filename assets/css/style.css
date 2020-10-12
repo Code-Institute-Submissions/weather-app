@@ -19,6 +19,7 @@
     min-height: 100vh;
 }
 
+/*  Styling for header and search box  */
 header {
     display: flex;
     justify-content: center;
