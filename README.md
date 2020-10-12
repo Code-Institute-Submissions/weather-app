@@ -140,15 +140,15 @@ All testing has been done manually clicking and typing into search-box.
 
 #### Home page:
 
-I tested if all navigation bar links work and send user to a correct section of page. 
+Main testing of this app was to make sure that I am getting correct data by my choisen city form a search box and API responds to request by providing correct data on a screen for end user. 
 
-I added JavaScript (Provided by my mentor Simen Daehlin) code to make expanded navigation bar slide up then one of menu items is picked then
-user is using tablet or mobile device. 
+I added weather icons under weather description too, to make app more live and not too boring. 
 
-1. Click navigation bar links. Do they take you to the correct section of the page?
-2. Click on a logo image. Does it take you to home page? 
-3. Resize the window. Does toggle icon appear and your menu works then it is clicked?
-4. Click 'Read more' button. Does it take you to page section 'About us'?
+1. Click in search box. Does this field let you to type city name in?
+2. Click enter after you have typed city name in a search box. 
+   Do you see correct city name on a screen with all information?
+3. Resize the window. Does all content fit on a screen and not disappear?
+4. Weather icon under weather description. Does weather icon shadow weather description?
 
 # Deployment:
 
