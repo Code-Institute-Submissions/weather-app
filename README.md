@@ -21,14 +21,15 @@
 # UX (User experience)
 
 ## Project Goals
-The goal of this project is to provide information about well known altrenative rock band Linkin Park. The website has to be attractive 
-and informative for users interested in this band. Because it is a website for current and new fans it has to have pictures of band members and media 
-files to create a better picture of band.
+The goal of this project is to provide simple but informative app for end user 
+who does not like many features but prefers simplicity. As it is a weather app 
+intentions were to have all needed information on one screen and also make it 
+attractive for user.
 
 ### User Goals:
 * The website is easy to use and is User Friendly
 * Information on website is readable and easy to understand
-* Added pictures and videos are interactive and clear
+* Added pictures are clear and 
 * Capability to send message via contact form
 * Interact with the website on Desktop, Tablet and Mobile 
 
