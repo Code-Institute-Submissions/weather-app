@@ -127,6 +127,7 @@ on Balsamiq to show how structurally elements would appear on the page for diffe
 
 ## Tools and Libraries:
 
+* <a href="https://openweathermap.org/api">Open Weather API</a>
 * <a href="https://getbootstrap.com/">Bootstrap</a>
 * <a href="https://fontawesome.com/icons?d=gallery">Font-Awesome</a>
 * <a href="https://css-tricks.com/">CSS-tricks</a>
