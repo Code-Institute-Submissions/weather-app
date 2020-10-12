@@ -22,7 +22,7 @@ function searchResults (query) {
         }).then(displayResults);
 }
 
-// displaying data for end user on. screen
+// displaying data for end user on screen
 function displayResults (weather) {
     console.log(weather);
     let currentCity = document.querySelector('.current-location .city');
@@ -33,7 +33,10 @@ function displayResults (weather) {
     "July", "August", "September", "October", "November", "December"];
 
     let currentDate = new Date();
+    let date = currentDate.getDate()+' '+monthNames[currentDate.getMonth()]+' '+currentDate.getFullYear();
+    document.querySelector('.current-location .date').innerText = date;
 
+    // change background image depending of the time of the day (AM or PM)
     if (weather.coord.dt > weather.sys.sunrise && weather.coord.dt < weather.sys.sunset) {
        $("#background").css("background", "url(assets/img/PM.jpg)");
     }
@@ -41,19 +44,15 @@ function displayResults (weather) {
        $("#background").css("background", "url(assets/img/AM.jpg)");
     }
 
-    let date = currentDate.getDate()+' '+monthNames[currentDate.getMonth()]+' '+currentDate.getFullYear();
-
-    document.querySelector('.current-location .date').innerText = date;
-
-    // display current temperature
+    // display current temperature in a choisen city
     let temperature = document.querySelector('.current-temp .temperature');
     temperature.innerHTML = `${Math.round(weather.main.temp)}<span>°C</span>`;
 
-    // display current weather condition
+    // display current weather condition description
     let weatherDescription = document.querySelector('.current-temp .weather-cond');
     weatherDescription.innerText = weather.weather[0].main;
 
-    // display weather icon which describbes weather condition
+    // display weather icon which describes weather condition
     let showWeatherIcon = document.querySelector('.current-temp .weather-icon');
     showWeatherIcon.innerHTML = `<img src="assets/img/icons/${weather.weather[0].icon}.png">`;
 
