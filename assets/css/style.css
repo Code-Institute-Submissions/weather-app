@@ -101,8 +101,8 @@ main {
 }
 
 .current-temp .weather-icon {
-    text-shadow: 0px 3px rgba(0,  0, 0, 0.4);
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .current-temp .temp-diff {
