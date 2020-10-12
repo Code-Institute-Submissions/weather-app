@@ -33,10 +33,8 @@ function displayResults (weather) {
     "July", "August", "September", "October", "November", "December"];
 
     let currentDate = new Date();
-   // let timeline = currentDate.getHours();
 
-    // if (weather.coord.dt > weather.sys.sunrise && weather.coord.dt < weather.sys.sunset) {
-    if (`${weather.coord.dt}` > `${weather.sys.sunrise}`) {
+    if (weather.coord.dt > weather.sys.sunrise && weather.coord.dt < weather.sys.sunset) {
        $("#background").css("background", "url(assets/img/PM.jpg)");
     }
     else {

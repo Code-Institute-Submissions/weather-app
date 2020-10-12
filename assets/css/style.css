@@ -12,7 +12,7 @@
     font-family: 'Mali', sans-serif;
     font-size: 62.5%;
     background-image: url('../img/weather.jpg');
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     margin: 5px;
     min-height: 100vh;
@@ -66,9 +66,9 @@ main {
 }
 
 .current-location .date {
-    color: #ffffff;
+    color: #717070;
     font-weight: 300;
-    text-shadow: 3px 3px rgba(255, 255, 255, 0.5);
+    text-shadow: 3px 2px #ffffff;
     font-size: 20px;
 }
 
