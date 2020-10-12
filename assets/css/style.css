@@ -1,13 +1,14 @@
+/*  Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
 
-/* Styling applied to all layout */ 
-
+/* Styling that is applied for a whole application*/ 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*  Syling applied to all body  */
 #background {
     font-family: 'Sansita Swashed', sans-serif;
     font-size: 62.5%;
@@ -15,11 +16,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     margin: 5px;
-    min-height: 100vh;
-}
-
-.main-laytout {
-    display: flex;
     min-height: 100vh;
 }
 
