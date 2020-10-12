@@ -150,37 +150,6 @@ user is using tablet or mobile device.
 3. Resize the window. Does toggle icon appear and your menu works then it is clicked?
 4. Click 'Read more' button. Does it take you to page section 'About us'?
 
-#### About Us:
-
-In this section I wanted to have only short paragraph and images of band's members. I wanted paragraph to
-be on the left side of page and images on the right. The best helper in this case was bootstrap grid 
-system. I just have to make sure that iamges and paragraph align in a way I wanted them. I was testing
-it manually resizing in google chrome inspect option.
-
-1. Resize window. Do images and paragraph of text responding correctly on a smaller devices?
-
-#### Media:
-
-This section of page had to have two videos embedded from youtube.com website and I wanted to have
-them next to each other. On a smaller devices my plan was to have them stacked on each other. The 
-most testing in this section has been done by making sure that videos are responsive via pc, tablet 
-and mobile device. Knowing that these media files are videos I had to test that they were working 
-and could be viewed on the website.
-
-1. Resize the window. Do embedded videos are responsive depending on device size?
-2. Play video. Do videos play on a website? Can you go to youtube.com website and watch it there?
-
-#### Contact Us:
-
-Contact us section purpose is to get messages from fans of a band or everyone interested into band's 
-movememts. User had to type in his email address, name and message he had in mind for band. 
-The testing I conducted on this form was to make sure all fields worked as expected and 'submit' 
-button sent you back to home page.
-
-1. Type in wrong type of email. Does field show rules of email address?
-2. Type in all information and press 'submit' button. Does it send you to home page?
-3. Do not fill any field and press submit button. Do you get a message that you have to fill form with information?
-
 # Deployment:
 
 Linkin Park fan page was developed on GitPod, using git and GitHub to host the repository.
