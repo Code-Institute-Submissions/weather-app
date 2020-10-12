@@ -75,11 +75,7 @@ create a mood for a user whos main idea is to come and just use this app to chec
 a weather in choisen city.
 
 ### Fonts:
-My first choice of font was <a href="https://fonts.google.com/?query=Martel+Sans&selection.family=Lato">Martel Sans</a> because it looks
-tidy and neat but also has soft edges to make text look not too heavy for a reader.
-
-I also used another font which was <a href="https://fonts.google.com/?query=Josefin+Sans&selection.family=Lato">Josefin Sans</a> for short biography paragraph 
-of Linkin Park band. I wanted paragraph to stand out a little bit and this font was perfect for that.
+My choice of a font was <a href="https://fonts.google.com/?query=Sansita+Swashed&selection.family=Lato">Sansita Swashed</a> because it looks a little bit different than the others and it has a soft and edgy style to it which can attract users who are bored of our days standards.
 
 ### Icons:
 The icons used as social links in footer section. They are all known social website's icons. I used 'font-awesome' 'Facebook', 'Instagram', 'Twitter'
