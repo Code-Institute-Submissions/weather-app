@@ -70,8 +70,9 @@ I was finding most of the websites too much into my face and you were getting lo
 * Weather icon is being displayed to shadow weather description
 
 # Design Choices:
-The theme of this project is a Linkin Park fans website. Knowing that this is alternative rock band, colour scheme was picked to create 
-better atmosphere which suits band itself.
+The theme of this website/app is weather. Images, colours and font was choisen to
+create a mood for a user whos main idea is to come and just use this app to check
+a weather in choisen city.
 
 ### Fonts:
 My first choice of font was <a href="https://fonts.google.com/?query=Martel+Sans&selection.family=Lato">Martel Sans</a> because it looks
