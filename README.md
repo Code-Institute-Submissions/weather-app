@@ -37,7 +37,7 @@ attractive for user.
 ### User Stories:
 
 ##### Brandon: 
-<em>"I am young and as you can imagine active person but I always like to check what kind of weather I will get on a handy app in my pocket. I have my phone with me all the time and I really liked that this app has all information needed on single screen"</em>
+<em>"I love this app. so simple and nice backgrounds. Now I am using only it to check weather."</em>
 
 ##### Tony R.: 
 <em>"I am not a biggest fan on new technologies and I prefer software which does not ask too much from me. I do not have a mobile phone and use my old PC only. Then I have tried this app on my home PC and I was pleased with all necessary information in one place. I think this app will be my number one from now to check weather."</em>
