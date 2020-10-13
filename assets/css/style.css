@@ -24,12 +24,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 15px 20px;
+    padding-top: 5rem; 
+    padding-right: 3rem;
+    /*1.5rem 2rem;*/
 }
 
 header input {
     width: 100%;
-    max-width: 290px;
+    max-width: 29rem;
     padding: 10px 15px;
     border: none;
     outline: none;
@@ -46,6 +48,13 @@ header input:focus {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+#submit-btn {
+    background-color: rgba(245, 245, 245, 0.2); 
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 2.5rem 1.25rem;
+    border-bottom: 3px solid #565656;
+}
 
 /*  Styling for main part of the app  */
 main {

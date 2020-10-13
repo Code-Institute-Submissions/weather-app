@@ -16,8 +16,11 @@
     <div class="main-layout col-12">
         <header>
             <div class="row">
-                <div class="col-12">
+                <div class="col-10">
                     <input type="text" autocomplete="off" class="search" placeholder="Which city? ..."/>
+                </div>
+                <div class="col-2">
+                    <button id="submit-btn" type="submit" value="Submit">Submit</button>
                  </div>
             </div>
         </header>
@@ -25,6 +28,11 @@
 <!-- Main two sections where all weather items are being displayed for end user -->
         <main>
             <section class="current-location col-12">
+            <div class="row">
+                <div class="error-box" id="error">
+                    <p class="error-text">I think something went wrong...</p>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-12 center">
                     <div class="city">London</div>
