@@ -91,8 +91,7 @@ The idea of these icons was to have something more live and catchy for the eye o
 * #000000 - font stroke feature for city and date 
 
 ### Styling:
-Thanks to SCSS I was easily able to set variables in my stylesheets that ask as the house style - this means that the styles can be used in multiple places without 
-having to repeat code. Using SCSS also allowed me to better structure my stylesheets.
+I became a fan of bootsrtap and he was my biggest helper for styling this app. I thing grid system is brilliant and it is capapble to do many handy things to make app look attractive. 
 
 ### Images + Background:
 The main background image I have found via google search on this website:
