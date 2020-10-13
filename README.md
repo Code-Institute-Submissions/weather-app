@@ -40,7 +40,7 @@ attractive for user.
 <em>"I love this app. so simple and nice backgrounds. Now I am using only it to check weather."</em>
 
 ##### Tony R.: 
-<em>"I am not a biggest fan on new technologies and I prefer software which does not ask too much from me. I do not have a mobile phone and use my old PC only. Then I have tried this app on my home PC and I was pleased with all necessary information in one place. I think this app will be my number one from now to check weather."</em>
+<em>"I am not a technology guru and use it because it helps me on daily basis. This app is nice and easy to use with all necessary information in one place. Big plus from me."</em>
 
 ##### Mrs Liane: 
 <em>"Days of technologies are full of so much information which is not necessary and just occupies us and I prefer simplicity which this app did provide me."</em>
