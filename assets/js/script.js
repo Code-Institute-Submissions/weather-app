@@ -2,7 +2,8 @@ const hiLowTempRef = document.querySelector('.current-temp .temp-diff');
 const citySearch = document.querySelector('.search');
 const currentCity = document.querySelector('.current-location .city');
 const temperatureRef = document.querySelector('.current-temp .temperature');
-const showWeatherIcon = document.querySelector('.current-temp .weather-icon');
+const weatherDescriptionRef = document.querySelector('.current-temp .weather-cond');
+const showWeatherIconRef = document.querySelector('.current-temp .weather-icon');
 const currentLocationDate = document.querySelector('.current-location .date');
 const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -46,7 +47,7 @@ function displayResults(weather) {
     $('#background').css('background', 'url(assets/img/AM.jpg)');
   }
   temperatureRef.innerHTML = `${Math.round(weather.main.temp)}<span>°C</span>`;
-  weatherDescription.innerText = weather.weather[0].main;
-  showWeatherIcon.innerHTML = `<img src="assets/img/icons/${weather.weather[0].icon}.png">`;
-  hiLowTemp.innerHTML = `${Math.round(weather.main.temp_min)}°C / ${Math.round(weather.main.temp_max)}°C`;
+  weatherDescriptionRef.innerText = weather.weather[0].main;
+  showWeatherIconRef.innerHTML = `<img src="assets/img/icons/${weather.weather[0].icon}.png">`;
+  hiLowTempRef.innerHTML = `${Math.round(weather.main.temp_min)}°C / ${Math.round(weather.main.temp_max)}°C`;
 }
