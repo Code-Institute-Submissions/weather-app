@@ -84,7 +84,7 @@ The idea of these icons was to have something more live and catchy for the eye o
 * rgba(245, 245, 245, 0.2) - background colour for search box
 * #565656 - border-bottom colour for search box
 * rgba(255, 255, 255, 0.2) - background colour for search box then field is activated
-* #717070 - city name colour, date colour
+* #FFFBE9 - city name colour, date colour
 * #F5F5F5 - temperature colour 
 * rgba(0, 0, 0, 0.6) - text-shadow for temperature colour text
 * rgba(0, 0, 0, 0.4) - text-shadow for weather condition text 

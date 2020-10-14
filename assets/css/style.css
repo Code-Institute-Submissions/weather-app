@@ -88,7 +88,7 @@ main {
 
 /*  Styling for date class  */
 .current-location .date {
-    color: #717070;
+    color: #FFFBE9;
     font-weight: 400;
     text-shadow: 1px 2px #ffffff;
     font-size: 1.25rem;
@@ -97,7 +97,7 @@ main {
 /* Stroke feature for fonts */
 .current-location {
     color: #000000;
-    -webkit-text-fill-color: #717070; 
+    -webkit-text-fill-color: #FFFBE9; 
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
 }
