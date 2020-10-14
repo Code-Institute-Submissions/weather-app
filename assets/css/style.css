@@ -82,13 +82,13 @@ main {
     margin-bottom: 5px;
     text-align: center;
     padding-right: 5px;
-    text-shadow: 2px 4px #ffffff;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 /*  Styling for date class  */
 .current-location .date {
     font-weight: 400;
-    text-shadow: 1px 2px #ffffff;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 1.25rem;
 }
 
