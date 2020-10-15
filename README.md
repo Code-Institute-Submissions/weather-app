@@ -133,7 +133,9 @@ on Balsamiq to show how structurally elements would appear on the page for diffe
 ### Testing planning + Testing stories:
 The most of the testing has been conducted in GitPod but I also have used chrome dev tools for layout inspection of my app. App was tried and tested on other devices like Iphone, Ipad and PC to check if background is responding correctly depending on screen size.
 
-All testing has been done manually clicking and typing into search-box. 
+All testing has been done manually clicking and typing into search-box also checking if submit button placed inline with search box responded same as keypress.
+
+Catching error then retrieving data if data came back undefined then error box popping on a screen instead of all weather data sections.
 
 #### Main page:
 
@@ -146,7 +148,10 @@ I added weather icons under weather description too, to make app more live and n
    Do you see correct city name on a screen with all information?
 3. Resize the window. Does all content fit on a screen and not disappear?
 4. Weather icon under weather description. Does weather icon shadow weather description?
-5. 
+5. Type city and press submit button. Did it manage to find city?
+6. Making deliberate mistake in typing. Did error box pop up and I am not able to see any other data?
+7. Search for cities in different timezones. Did background image changed depending if it's AM or PM time in current city?
+8. Find city and then do mistake whilst searching for another one. Does error message pop and background goes back to default one?
 
 # Deployment:
 
