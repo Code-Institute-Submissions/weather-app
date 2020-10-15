@@ -58,7 +58,8 @@ header input:focus {
 
 #error {
     text-align: center;
-    margin-top: 1rem;   
+    margin-top: 1rem;
+    display: none; 
 }
 
 #error .error-text {

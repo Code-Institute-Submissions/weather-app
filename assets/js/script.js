@@ -32,31 +32,34 @@ window.addEventListener('keypress', function(event){
 function searchResults(query) {
   fetch(`${api.baseurl}weather?q=${query}&units=metric&APPID=${api.key}`)
   .then((response) => response.json())
-  .then((weatherData) => displayResults(weatherData))
+  .then((weatherData) => {
+      $('#error').css('display', 'none');
+      $('.current-temp').css('display', 'block');
+      $('.current-location').css('display', 'block');
+      displayResults(weatherData);
+    })
   .catch((err) => {
       $('#error').css('display', 'block');
-      $('current-location').css('display', 'none');
+      $('.current-temp').css('display', 'none');
+      $('.current-location').css('display', 'none');
   });
 }
-   // .then((weather) => {
-    //  return weather.json();
-   // })
-   // .then(displayResults);
-//}
 /**
  * Displays the api results to the user
  * @param weather {object} - Weather Object coming from APi
  */
 function displayResults(weatherData) {
+    if (weatherData == null || weatherData == undefined) {
+        if (weatherData.coord.dt > weatherData.sys.sunrise && weatherData.coord.dt < weatherData.sys.sunse) {
+            $('#background').css('background', 'url(assets/img/PM.jpg)');
+        } else {
+            $('#background').css('background', 'url(assets/img/AM.jpg)');
+        }
+    }
   currentCity.innerText = `${weatherData.name}`;
   const currentDate = new Date();
   const date = currentDate.getDate() + ' ' + monthNames[currentDate.getMonth()] + ' ' + currentDate.getFullYear();
   currentLocationDate.innerText = date;
-  if (weatherData.coord.dt > weatherData.sys.sunrise && weatherData.coord.dt < weatherData.sys.sunset) {
-    $('#background').css('background', 'url(assets/img/PM.jpg)');
-  } else {
-    $('#background').css('background', 'url(assets/img/AM.jpg)');
-  }
   temperatureRef.innerHTML = `${Math.round(weatherData.main.temp)}<span>°C</span>`;
   weatherDescriptionRef.innerText = weatherData.weather[0].main;
   showWeatherIconRef.innerHTML = `<img src="assets/img/icons/${weatherData.weather[0].icon}.png">`;
