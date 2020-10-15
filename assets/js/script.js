@@ -14,7 +14,7 @@ const api = {
 };
 /**
  * Searching for a city
- * @param e {string} - Id of the city to provide for API
+ * @param event {string} - Id of the city to provide for API
  */
 function findCity() {
     searchResults(citySearch.value);
@@ -33,6 +33,10 @@ function searchResults(query) {
   fetch(`${api.baseurl}weather?q=${query}&units=metric&APPID=${api.key}`)
   .then((response) => response.json())
   .then((weatherData) => {
+      console.log(weatherData);
+      console.log(weatherData.dt);
+      console.log(weatherData.sys.sunrise);
+      console.log(weatherData.sys.sunset);
       $('#error').css('display', 'none');
       $('.current-temp').css('display', 'block');
       $('.current-location').css('display', 'block');
@@ -46,14 +50,14 @@ function searchResults(query) {
 }
 /**
  * Displays the api results to the user
- * @param weather {object} - Weather Object coming from APi
+ * @param weatherData {object} - Weather Object coming from APi
  */
 function displayResults(weatherData) {
-    if (weatherData == null || weatherData == undefined) {
-        if (weatherData.coord.dt > weatherData.sys.sunrise && weatherData.coord.dt < weatherData.sys.sunse) {
-            $('#background').css('background', 'url(assets/img/PM.jpg)');
-        } else {
+    if (weatherData != null || weatherData != undefined) {
+        if (weatherData.dt > weatherData.sys.sunrise && weatherData.dt < weatherData.sys.sunset) {
             $('#background').css('background', 'url(assets/img/AM.jpg)');
+        } else {
+            $('#background').css('background', 'url(assets/img/PM.jpg)');
         }
     }
   currentCity.innerText = `${weatherData.name}`;
