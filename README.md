@@ -151,7 +151,7 @@ I added weather icons under weather description too, to make app more live and n
 4. Weather icon under weather description. Does weather icon shadow weather description?
 5. Type city and press submit button. Did it manage to find city?
 6. Making deliberate mistake in typing. Did error box pop up and I am not able to see any other data?
-7. Search for cities in different timezones. Did background image changed depending if it's AM or PM time in current city?
+7. Search for cities in different timezones. Did background image changed depending if it is AM or PM time in current city?
 8. Find city and then do mistake whilst searching for another one. Does error message pop and background goes back to default one?
 
 # Deployment:
