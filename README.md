@@ -57,6 +57,7 @@ attractive for user.
 * Search box responds correctly and gives suitable information on a screen 
 * Be provided with correct and updated information 
 * Website content displayed in a suitable and not offensive manor
+* SUbmit buttons responds and executes search same way as keypress
 
 ### Expectations:
 * Searched city name is being displayed on a screen with suitable information
