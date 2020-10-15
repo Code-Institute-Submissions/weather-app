@@ -110,6 +110,7 @@ on Balsamiq to show how structurally elements would appear on the page for diffe
 # Features:
 
 * Updated information from outside API 
+* Submit button added next to a search field to be able to do search on mobile devices
 * Integrated responsive weather icons
 
 # Technologies Used:
