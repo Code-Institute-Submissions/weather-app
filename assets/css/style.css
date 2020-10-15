@@ -60,11 +60,15 @@ header input:focus {
     text-align: center;
     margin-top: 1rem;
     display: none; 
+    
 }
 
 #error .error-text {
     font-size: 2rem;
-    color: #565656;
+    color: #000000;
+    -webkit-text-fill-color: #565656; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
 }
 
 /*  Styling for main part of the app  */

@@ -33,10 +33,6 @@ function searchResults(query) {
   fetch(`${api.baseurl}weather?q=${query}&units=metric&APPID=${api.key}`)
   .then((response) => response.json())
   .then((weatherData) => {
-      console.log(weatherData);
-      console.log(weatherData.dt);
-      console.log(weatherData.sys.sunrise);
-      console.log(weatherData.sys.sunset);
       $('#error').css('display', 'none');
       $('.current-temp').css('display', 'block');
       $('.current-location').css('display', 'block');
@@ -54,12 +50,13 @@ function searchResults(query) {
  */
 function displayResults(weatherData) {
     if (weatherData != null || weatherData != undefined) {
+        $('#background').css('background', 'url(assets/img/weather.jpg)');
         if (weatherData.dt > weatherData.sys.sunrise && weatherData.dt < weatherData.sys.sunset) {
             $('#background').css('background', 'url(assets/img/AM.jpg)');
         } else {
             $('#background').css('background', 'url(assets/img/PM.jpg)');
-        }
-    }
+        } 
+    } 
   currentCity.innerText = `${weatherData.name}`;
   const currentDate = new Date();
   const date = currentDate.getDate() + ' ' + monthNames[currentDate.getMonth()] + ' ' + currentDate.getFullYear();
