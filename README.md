@@ -82,13 +82,13 @@ The idea of these icons was to have something more live and catchy for the eye o
 ### Colours:
 * #ffffff - city name text-shadow colour
 * rgba(245, 245, 245, 0.2) - background colour for search box
-* #565656 - border-bottom colour for search box
+* #565656 - border-bottom colour for search box and font colour for error message
 * rgba(255, 255, 255, 0.2) - background colour for search box then field is activated
 * #FFFBE9 - city name colour, date colour
 * #F5F5F5 - temperature colour 
 * rgba(0, 0, 0, 0.6) - text-shadow for temperature colour text
 * rgba(0, 0, 0, 0.4) - text-shadow for weather condition text 
-* #000000 - font stroke feature for city and date 
+* #000000 - font stroke feature for city and date and error text
 
 ### Styling:
 I became a fan of bootsrtap and he was my biggest helper for styling this app. I thing grid system is brilliant and it is capapble to do many handy things to make app look attractive. 
@@ -144,6 +144,7 @@ I added weather icons under weather description too, to make app more live and n
    Do you see correct city name on a screen with all information?
 3. Resize the window. Does all content fit on a screen and not disappear?
 4. Weather icon under weather description. Does weather icon shadow weather description?
+5. 
 
 # Deployment:
 
