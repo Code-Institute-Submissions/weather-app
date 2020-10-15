@@ -112,6 +112,7 @@ on Balsamiq to show how structurally elements would appear on the page for diffe
 * Updated information from outside API 
 * Submit button added next to a search field to be able to do search on mobile devices
 * Integrated responsive weather icons
+* Background image changes depending if it is AM or PM time in current city
 
 # Technologies Used:
 
